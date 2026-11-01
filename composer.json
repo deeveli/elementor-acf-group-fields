@@ -1,0 +1,23 @@
+{
+  "name": "hushux/elementor-acf-group-fields",
+  "description": "Expose nested ACF Group, Repeater, Flexible Content, and Clone fields as Elementor Pro Dynamic Tags.",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Divine Elikplim Abah",
+      "homepage": "https://github.com/deeveli"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "HushUX\\ElementorAcfGroupFields\\": "src/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
